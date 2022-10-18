@@ -5,7 +5,7 @@
   tasks:
      - name: "复制主机上的文件到目标服务器上"
        copy:
-         src: /root/a.txt
+         src: /root/daipengtao.txt
          dest: /root
          owner: root
          group: root
