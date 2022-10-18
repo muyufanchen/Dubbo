@@ -1,0 +1,12 @@
+---
+- hosts: all
+  remote_user: root
+  gather_facts: false
+  tasks:
+     - name: "复制服务器上的文件到主机上"
+       copy:
+         src: "/root/b.txt"
+         dest: "/root"
+         owner: root
+         group: root
+         mode: 755
