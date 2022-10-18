@@ -3,10 +3,10 @@
   remote_user: root
   gather_facts: false
   tasks:
-    - name: "复制主机上的文件到目标服务器上"
-      copy:
-        src: "/root/a.txt"
-        dest: "/root"
-        owner: root
-        group: root
-        mode: 755
+     - name: "复制主机上的文件到目标服务器上"
+       copy:
+         src: "/root/a.txt"
+         dest: "/root"
+         owner: root
+         group: root
+         mode: 755
