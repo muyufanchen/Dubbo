@@ -5,8 +5,8 @@
   tasks:
      - name: "复制服务器上的文件到主机上"
        copy:
-         src: "/root/b.txt"
-         dest: "/root"
+         src: /root/b.txt
+         dest: a
          owner: root
          group: root
          mode: 755
