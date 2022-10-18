@@ -4,7 +4,7 @@
   gather_facts: false
   tasks:
      - name: "复制服务器上的文件到主机上"
-       copy:
+       fetch:
          src: /root/b.txt
          dest: a
          owner: root
